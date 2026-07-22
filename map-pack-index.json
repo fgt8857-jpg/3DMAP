@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "updatedAt":  "2026-07-22T08:46:34.2168829Z",
+    "updatedAt":  "2026-07-22T09:19:30.6884670Z",
     "homepage":  "https://github.com/fgt8857-jpg/3DMAP",
     "packs":  [
                   {
@@ -51,6 +51,23 @@
                                    "3d",
                                    "semantics",
                                    "ets2",
+                                   "traffic-area",
+                                   "not-traffic-lights"
+                               ]
+                  },
+                  {
+                      "packId":  "ats-3d-semantic-rules",
+                      "track":  "3d",
+                      "gameId":  "ATS",
+                      "title":  "ATS 3D semantic rules",
+                      "latestContentVersion":  "20260722.ats1",
+                      "manifestUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats1/manifest.json",
+                      "zipUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats1/ats-3d-semantic-rules-20260722.ats1.zip",
+                      "sha256Url":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats1/ats-3d-semantic-rules-20260722.ats1.zip.sha256",
+                      "tags":  [
+                                   "3d",
+                                   "semantics",
+                                   "ats",
                                    "traffic-area",
                                    "not-traffic-lights"
                                ]
