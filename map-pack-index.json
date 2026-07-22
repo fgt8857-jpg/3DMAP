@@ -1,18 +1,23 @@
-﻿{
-  "schemaVersion": 1,
-  "updatedAt": "2026-07-22T03:15:00.000Z",
-  "homepage": "https://github.com/fgt8857-jpg/3DMAP",
-  "packs": [
-    {
-      "packId": "ets2-3d-base",
-      "track": "3d",
-      "gameId": "ETS2",
-      "title": "ETS2 3D base (roads + cities)",
-      "latestContentVersion": "20260721.0",
-      "manifestUrl": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260721.0/manifest.json",
-      "zipUrl": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260721.0/ets2-3d-base-20260721.0.zip",
-      "sha256Url": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260721.0/ets2-3d-base-20260721.0.zip.sha256",
-      "tags": ["3d", "semantics", "ets2", "export-3d", "release"]
-    }
-  ]
+{
+    "updatedAt":  "2026-07-22T03:22:15.1711001Z",
+    "packs":  [
+                  {
+                      "gameId":  "ETS2",
+                      "latestContentVersion":  "20260722.0",
+                      "track":  "3d",
+                      "manifestUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.0/manifest.json",
+                      "packId":  "ets2-3d-base",
+                      "zipUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.0/ets2-3d-base-20260722.0.zip",
+                      "tags":  [
+                                   "3d",
+                                   "semantics",
+                                   "ets2",
+                                   "release"
+                               ],
+                      "sha256Url":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.0/ets2-3d-base-20260722.0.zip.sha256",
+                      "title":  "ETS2 3D base"
+                  }
+              ],
+    "schemaVersion":  1,
+    "homepage":  "https://github.com/fgt8857-jpg/3DMAP"
 }
