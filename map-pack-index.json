@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "updatedAt":  "2026-07-22T06:04:42.8231135Z",
+    "updatedAt":  "2026-07-22T08:46:34.2168829Z",
     "homepage":  "https://github.com/fgt8857-jpg/3DMAP",
     "packs":  [
                   {
@@ -36,6 +36,23 @@
                                    "topology",
                                    "junction-ports",
                                    "release"
+                               ]
+                  },
+                  {
+                      "packId":  "ets2-3d-semantic-rules",
+                      "track":  "3d",
+                      "gameId":  "ETS2",
+                      "title":  "ETS2 3D semantic rules",
+                      "latestContentVersion":  "20260722.3",
+                      "manifestUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.3/manifest.json",
+                      "zipUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.3/ets2-3d-semantic-rules-20260722.3.zip",
+                      "sha256Url":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.3/ets2-3d-semantic-rules-20260722.3.zip.sha256",
+                      "tags":  [
+                                   "3d",
+                                   "semantics",
+                                   "ets2",
+                                   "traffic-area",
+                                   "not-traffic-lights"
                                ]
                   }
               ]
