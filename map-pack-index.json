@@ -1,23 +1,42 @@
 {
-    "updatedAt":  "2026-07-22T03:22:15.1711001Z",
+    "schemaVersion":  1,
+    "updatedAt":  "2026-07-22T06:04:42.8231135Z",
+    "homepage":  "https://github.com/fgt8857-jpg/3DMAP",
     "packs":  [
                   {
-                      "gameId":  "ETS2",
-                      "latestContentVersion":  "20260722.0",
-                      "track":  "3d",
-                      "manifestUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.0/manifest.json",
                       "packId":  "ets2-3d-base",
-                      "zipUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.0/ets2-3d-base-20260722.0.zip",
+                      "track":  "3d",
+                      "gameId":  "ETS2",
+                      "title":  "ETS2 3D base (roads, areas, overlays, prefab proxies)",
+                      "latestContentVersion":  "20260722.1",
+                      "manifestUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.1/manifest.json",
+                      "zipUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.1/ets2-3d-base-20260722.1.zip",
+                      "sha256Url":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.1/ets2-3d-base-20260722.1.zip.sha256",
                       "tags":  [
                                    "3d",
                                    "semantics",
                                    "ets2",
+                                   "base",
                                    "release"
-                               ],
-                      "sha256Url":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.0/ets2-3d-base-20260722.0.zip.sha256",
-                      "title":  "ETS2 3D base"
+                               ]
+                  },
+                  {
+                      "packId":  "ets2-3d-topology",
+                      "track":  "3d",
+                      "gameId":  "ETS2",
+                      "title":  "ETS2 3D topology (road endpoints + prefab junction ports)",
+                      "latestContentVersion":  "20260722.2",
+                      "manifestUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.2/manifest.json",
+                      "zipUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.2/ets2-3d-topology-20260722.2.zip",
+                      "sha256Url":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.2/ets2-3d-topology-20260722.2.zip.sha256",
+                      "tags":  [
+                                   "3d",
+                                   "semantics",
+                                   "ets2",
+                                   "topology",
+                                   "junction-ports",
+                                   "release"
+                               ]
                   }
-              ],
-    "schemaVersion":  1,
-    "homepage":  "https://github.com/fgt8857-jpg/3DMAP"
+              ]
 }
