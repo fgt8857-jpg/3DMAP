@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "packId": "ets2-3d-base",
+  "track": "3d",
+  "gameId": "ETS2",
+  "contentVersion": "20260721.0",
+  "title": "ETS2 3D base (roads\u002Bcities)",
+  "description": "Semantic layers from tb-tsmap-export export-3d (TsMapper). Buildings/lights empty placeholders until exporters exist.",
+  "license": "SEE LICENSE in pack repo \u2014 game-derived data",
+  "createdAt": "2026-07-21T15:52:40.9114749\u002B00:00",
+  "layers": [
+    {
+      "id": "road_network",
+      "kind": "road-graph",
+      "path": "layers/roads.geojson",
+      "format": "geojson"
+    },
+    {
+      "id": "cities_poi",
+      "kind": "cities",
+      "path": "layers/cities.geojson",
+      "format": "geojson"
+    },
+    {
+      "id": "buildings",
+      "kind": "buildings",
+      "path": "layers/buildings.geojson",
+      "format": "geojson"
+    },
+    {
+      "id": "traffic_lights",
+      "kind": "traffic-lights",
+      "path": "layers/lights.geojson",
+      "format": "geojson"
+    }
+  ],
+  "world": {
+    "worldScaleDefault": 1,
+    "headingOffsetDegDefault": 0,
+    "coordinateNote": "mapX=game X, mapY=game Z (same as TsMap / TB MapPoint before calibration)",
+    "bounds": {
+      "minX": -94121.805,
+      "maxX": 78870.14,
+      "minZ": -122148.086,
+      "maxZ": 87954.84
+    }
+  },
+  "tags": [
+    "3d",
+    "semantics",
+    "ets2",
+    "export-3d"
+  ],
+  "export": {
+    "tool": "tb-tsmap-export",
+    "command": "export-3d",
+    "engine": "dariowouters/ts-map",
+    "roadFeatures": 113653,
+    "cityFeatures": 374
+  }
+}
