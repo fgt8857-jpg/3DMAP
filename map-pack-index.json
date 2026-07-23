@@ -1,205 +1,223 @@
 {
-    "schemaVersion":  1,
-    "updatedAt":  "2026-07-22T14:23:39.0986272Z",
-    "homepage":  "https://github.com/fgt8857-jpg/3DMAP",
-    "packs":  [
-                  {
-                      "packId":  "ets2-3d-base",
-                      "track":  "3d",
-                      "gameId":  "ETS2",
-                      "title":  "ETS2 3D base (roads, areas, overlays, prefab proxies)",
-                      "latestContentVersion":  "20260722.1",
-                      "manifestUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.1/manifest.json",
-                      "zipUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.1/ets2-3d-base-20260722.1.zip",
-                      "sha256Url":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.1/ets2-3d-base-20260722.1.zip.sha256",
-                      "tags":  [
-                                   "3d",
-                                   "semantics",
-                                   "ets2",
-                                   "base",
-                                   "release"
-                               ]
-                  },
-                  {
-                      "packId":  "ets2-3d-poi",
-                      "track":  "3d",
-                      "gameId":  "ETS2",
-                      "title":  "ETS2 3D POI (cities and map overlays)",
-                      "latestContentVersion":  "20260722.4",
-                      "manifestUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4-ets2-poi/manifest.json",
-                      "zipUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4-ets2-poi/ets2-3d-poi-20260722.4.zip",
-                      "sha256Url":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4-ets2-poi/ets2-3d-poi-20260722.4.zip.sha256",
-                      "tags":  [
-                                   "3d",
-                                   "semantics",
-                                   "ets2",
-                                   "poi",
-                                   "overlays",
-                                   "not-traffic-lights"
-                               ]
-                  },
-                  {
-                      "packId":  "ets2-3d-prefab-local",
-                      "track":  "3d",
-                      "gameId":  "ETS2",
-                      "title":  "ETS2 3D prefab-local topology catalog",
-                      "latestContentVersion":  "20260722.4",
-                      "manifestUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4-ets2-prefab-local/manifest.json",
-                      "zipUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4-ets2-prefab-local/ets2-3d-prefab-local-20260722.4.zip",
-                      "sha256Url":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4-ets2-prefab-local/ets2-3d-prefab-local-20260722.4.zip.sha256",
-                      "tags":  [
-                                   "3d",
-                                   "semantics",
-                                   "ets2",
-                                   "prefab-local",
-                                   "detached",
-                                   "not-routeable"
-                               ]
-                  },
-                  {
-                      "packId":  "ets2-3d-prefab-proxies",
-                      "track":  "3d",
-                      "gameId":  "ETS2",
-                      "title":  "ETS2 3D prefab instance proxies",
-                      "latestContentVersion":  "20260722.4",
-                      "manifestUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4-ets2-prefab-proxies/manifest.json",
-                      "zipUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4-ets2-prefab-proxies/ets2-3d-prefab-proxies-20260722.4.zip",
-                      "sha256Url":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4-ets2-prefab-proxies/ets2-3d-prefab-proxies-20260722.4.zip.sha256",
-                      "tags":  [
-                                   "3d",
-                                   "semantics",
-                                   "ets2",
-                                   "prefab-proxies",
-                                   "not-building-mesh"
-                               ]
-                  },
-                  {
-                      "packId":  "ets2-3d-semantic-rules",
-                      "track":  "3d",
-                      "gameId":  "ETS2",
-                      "title":  "ETS2 3D semantic rules",
-                      "latestContentVersion":  "20260722.4",
-                      "manifestUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4/manifest.json",
-                      "zipUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4/ets2-3d-semantic-rules-20260722.4.zip",
-                      "sha256Url":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4/ets2-3d-semantic-rules-20260722.4.zip.sha256",
-                      "tags":  [
-                                   "3d",
-                                   "semantics",
-                                   "ets2",
-                                   "traffic-area",
-                                   "not-traffic-lights"
-                               ]
-                  },
-                  {
-                      "packId":  "ets2-3d-topology",
-                      "track":  "3d",
-                      "gameId":  "ETS2",
-                      "title":  "ETS2 3D topology (road endpoints + prefab junction ports)",
-                      "latestContentVersion":  "20260722.4",
-                      "manifestUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4-ets2-topology/manifest.json",
-                      "zipUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4-ets2-topology/ets2-3d-topology-20260722.4.zip",
-                      "sha256Url":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4-ets2-topology/ets2-3d-topology-20260722.4.zip.sha256",
-                      "tags":  [
-                                   "3d",
-                                   "semantics",
-                                   "ets2",
-                                   "topology",
-                                   "junction-ports",
-                                   "not-routeable"
-                               ]
-                  },
-                  {
-                      "packId":  "ats-3d-poi",
-                      "track":  "3d",
-                      "gameId":  "ATS",
-                      "title":  "ATS 3D POI (cities and map overlays)",
-                      "latestContentVersion":  "20260722.ats2",
-                      "manifestUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2-poi/manifest.json",
-                      "zipUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2-poi/ats-3d-poi-20260722.ats2.zip",
-                      "sha256Url":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2-poi/ats-3d-poi-20260722.ats2.zip.sha256",
-                      "tags":  [
-                                   "3d",
-                                   "semantics",
-                                   "ats",
-                                   "poi",
-                                   "overlays",
-                                   "not-traffic-lights",
-                                   "release"
-                               ]
-                  },
-                  {
-                      "packId":  "ats-3d-prefab-local",
-                      "track":  "3d",
-                      "gameId":  "ATS",
-                      "title":  "ATS 3D prefab-local topology catalog",
-                      "latestContentVersion":  "20260722.ats2",
-                      "manifestUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2-prefab-local/manifest.json",
-                      "zipUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2-prefab-local/ats-3d-prefab-local-20260722.ats2.zip",
-                      "sha256Url":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2-prefab-local/ats-3d-prefab-local-20260722.ats2.zip.sha256",
-                      "tags":  [
-                                   "3d",
-                                   "semantics",
-                                   "ats",
-                                   "prefab-local",
-                                   "detached",
-                                   "not-routeable",
-                                   "release"
-                               ]
-                  },
-                  {
-                      "packId":  "ats-3d-prefab-proxies",
-                      "track":  "3d",
-                      "gameId":  "ATS",
-                      "title":  "ATS 3D prefab instance proxies",
-                      "latestContentVersion":  "20260722.ats2",
-                      "manifestUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2-prefab-proxies/manifest.json",
-                      "zipUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2-prefab-proxies/ats-3d-prefab-proxies-20260722.ats2.zip",
-                      "sha256Url":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2-prefab-proxies/ats-3d-prefab-proxies-20260722.ats2.zip.sha256",
-                      "tags":  [
-                                   "3d",
-                                   "semantics",
-                                   "ats",
-                                   "prefab-proxies",
-                                   "not-building-mesh",
-                                   "release"
-                               ]
-                  },
-                  {
-                      "packId":  "ats-3d-semantic-rules",
-                      "track":  "3d",
-                      "gameId":  "ATS",
-                      "title":  "ATS 3D semantic rules",
-                      "latestContentVersion":  "20260722.ats2",
-                      "manifestUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2/manifest.json",
-                      "zipUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2/ats-3d-semantic-rules-20260722.ats2.zip",
-                      "sha256Url":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2/ats-3d-semantic-rules-20260722.ats2.zip.sha256",
-                      "tags":  [
-                                   "3d",
-                                   "semantics",
-                                   "ats",
-                                   "traffic-area",
-                                   "not-traffic-lights",
-                                   "release"
-                               ]
-                  },
-                  {
-                      "packId":  "ats-3d-topology",
-                      "track":  "3d",
-                      "gameId":  "ATS",
-                      "title":  "ATS 3D topology (road endpoints + prefab junction ports)",
-                      "latestContentVersion":  "20260722.ats2",
-                      "manifestUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2-topology/manifest.json",
-                      "zipUrl":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2-topology/ats-3d-topology-20260722.ats2.zip",
-                      "sha256Url":  "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2-topology/ats-3d-topology-20260722.ats2.zip.sha256",
-                      "tags":  [
-                                   "3d",
-                                   "semantics",
-                                   "ats",
-                                   "topology",
-                                   "junction-ports",
-                                   "not-routeable",
-                                   "release"
-                               ]
-                  }
-              ]
+  "schemaVersion": 1,
+  "updatedAt": "2026-07-23T16:10:53.700Z",
+  "homepage": "https://github.com/fgt8857-jpg/3DMAP",
+  "packs": [
+    {
+      "packId": "ets2-3d-base",
+      "track": "3d",
+      "gameId": "ETS2",
+      "title": "ETS2 3D base (roads, areas, overlays, prefab proxies)",
+      "latestContentVersion": "20260722.1",
+      "manifestUrl": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.1/manifest.json",
+      "zipUrl": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.1/ets2-3d-base-20260722.1.zip",
+      "sha256Url": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.1/ets2-3d-base-20260722.1.zip.sha256",
+      "tags": [
+        "3d",
+        "semantics",
+        "ets2",
+        "base",
+        "release"
+      ]
+    },
+    {
+      "packId": "ets2-3d-poi",
+      "track": "3d",
+      "gameId": "ETS2",
+      "title": "ETS2 3D POI (cities and map overlays)",
+      "latestContentVersion": "20260722.4",
+      "manifestUrl": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4-ets2-poi/manifest.json",
+      "zipUrl": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4-ets2-poi/ets2-3d-poi-20260722.4.zip",
+      "sha256Url": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4-ets2-poi/ets2-3d-poi-20260722.4.zip.sha256",
+      "tags": [
+        "3d",
+        "semantics",
+        "ets2",
+        "poi",
+        "overlays",
+        "not-traffic-lights"
+      ]
+    },
+    {
+      "packId": "ets2-3d-prefab-local",
+      "track": "3d",
+      "gameId": "ETS2",
+      "title": "ETS2 3D prefab-local topology catalog",
+      "latestContentVersion": "20260722.4",
+      "manifestUrl": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4-ets2-prefab-local/manifest.json",
+      "zipUrl": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4-ets2-prefab-local/ets2-3d-prefab-local-20260722.4.zip",
+      "sha256Url": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4-ets2-prefab-local/ets2-3d-prefab-local-20260722.4.zip.sha256",
+      "tags": [
+        "3d",
+        "semantics",
+        "ets2",
+        "prefab-local",
+        "detached",
+        "not-routeable"
+      ]
+    },
+    {
+      "packId": "ets2-3d-prefab-proxies",
+      "track": "3d",
+      "gameId": "ETS2",
+      "title": "ETS2 3D prefab instance proxies",
+      "latestContentVersion": "20260722.4",
+      "manifestUrl": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4-ets2-prefab-proxies/manifest.json",
+      "zipUrl": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4-ets2-prefab-proxies/ets2-3d-prefab-proxies-20260722.4.zip",
+      "sha256Url": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4-ets2-prefab-proxies/ets2-3d-prefab-proxies-20260722.4.zip.sha256",
+      "tags": [
+        "3d",
+        "semantics",
+        "ets2",
+        "prefab-proxies",
+        "not-building-mesh"
+      ]
+    },
+    {
+      "packId": "ets2-3d-semantic-rules",
+      "track": "3d",
+      "gameId": "ETS2",
+      "title": "ETS2 3D semantic rules",
+      "latestContentVersion": "20260722.4",
+      "manifestUrl": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4/manifest.json",
+      "zipUrl": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4/ets2-3d-semantic-rules-20260722.4.zip",
+      "sha256Url": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4/ets2-3d-semantic-rules-20260722.4.zip.sha256",
+      "tags": [
+        "3d",
+        "semantics",
+        "ets2",
+        "traffic-area",
+        "not-traffic-lights"
+      ]
+    },
+    {
+      "packId": "ets2-3d-topology",
+      "track": "3d",
+      "gameId": "ETS2",
+      "title": "ETS2 3D topology (road endpoints + prefab junction ports)",
+      "latestContentVersion": "20260722.4",
+      "manifestUrl": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4-ets2-topology/manifest.json",
+      "zipUrl": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4-ets2-topology/ets2-3d-topology-20260722.4.zip",
+      "sha256Url": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.4-ets2-topology/ets2-3d-topology-20260722.4.zip.sha256",
+      "tags": [
+        "3d",
+        "semantics",
+        "ets2",
+        "topology",
+        "junction-ports",
+        "not-routeable"
+      ]
+    },
+    {
+      "packId": "ats-3d-poi",
+      "track": "3d",
+      "gameId": "ATS",
+      "title": "ATS 3D POI (cities and map overlays)",
+      "latestContentVersion": "20260722.ats2",
+      "manifestUrl": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2-poi/manifest.json",
+      "zipUrl": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2-poi/ats-3d-poi-20260722.ats2.zip",
+      "sha256Url": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2-poi/ats-3d-poi-20260722.ats2.zip.sha256",
+      "tags": [
+        "3d",
+        "semantics",
+        "ats",
+        "poi",
+        "overlays",
+        "not-traffic-lights",
+        "release"
+      ]
+    },
+    {
+      "packId": "ats-3d-prefab-local",
+      "track": "3d",
+      "gameId": "ATS",
+      "title": "ATS 3D prefab-local topology catalog",
+      "latestContentVersion": "20260722.ats2",
+      "manifestUrl": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2-prefab-local/manifest.json",
+      "zipUrl": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2-prefab-local/ats-3d-prefab-local-20260722.ats2.zip",
+      "sha256Url": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2-prefab-local/ats-3d-prefab-local-20260722.ats2.zip.sha256",
+      "tags": [
+        "3d",
+        "semantics",
+        "ats",
+        "prefab-local",
+        "detached",
+        "not-routeable",
+        "release"
+      ]
+    },
+    {
+      "packId": "ats-3d-prefab-proxies",
+      "track": "3d",
+      "gameId": "ATS",
+      "title": "ATS 3D prefab instance proxies",
+      "latestContentVersion": "20260722.ats2",
+      "manifestUrl": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2-prefab-proxies/manifest.json",
+      "zipUrl": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2-prefab-proxies/ats-3d-prefab-proxies-20260722.ats2.zip",
+      "sha256Url": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2-prefab-proxies/ats-3d-prefab-proxies-20260722.ats2.zip.sha256",
+      "tags": [
+        "3d",
+        "semantics",
+        "ats",
+        "prefab-proxies",
+        "not-building-mesh",
+        "release"
+      ]
+    },
+    {
+      "packId": "ats-3d-semantic-rules",
+      "track": "3d",
+      "gameId": "ATS",
+      "title": "ATS 3D semantic rules",
+      "latestContentVersion": "20260722.ats2",
+      "manifestUrl": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2/manifest.json",
+      "zipUrl": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2/ats-3d-semantic-rules-20260722.ats2.zip",
+      "sha256Url": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2/ats-3d-semantic-rules-20260722.ats2.zip.sha256",
+      "tags": [
+        "3d",
+        "semantics",
+        "ats",
+        "traffic-area",
+        "not-traffic-lights",
+        "release"
+      ]
+    },
+    {
+      "packId": "ats-3d-topology",
+      "track": "3d",
+      "gameId": "ATS",
+      "title": "ATS 3D topology (road endpoints + prefab junction ports)",
+      "latestContentVersion": "20260722.ats2",
+      "manifestUrl": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2-topology/manifest.json",
+      "zipUrl": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2-topology/ats-3d-topology-20260722.ats2.zip",
+      "sha256Url": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260722.ats2-topology/ats-3d-topology-20260722.ats2.zip.sha256",
+      "tags": [
+        "3d",
+        "semantics",
+        "ats",
+        "topology",
+        "junction-ports",
+        "not-routeable",
+        "release"
+      ]
+    },
+    {
+      "packId": "ets2-driving-v0-toll-border",
+      "track": "3d",
+      "gameId": "ETS2",
+      "title": "ETS2 3D semantic map (ets2-driving-v0-toll-border)",
+      "latestContentVersion": "20260723.0",
+      "manifestUrl": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260723.0/manifest.json",
+      "zipUrl": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260723.0/ets2-driving-v0-toll-border-20260723.0.zip",
+      "sha256Url": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260723.0/ets2-driving-v0-toll-border-20260723.0.zip.sha256",
+      "tags": [
+        "3d",
+        "semantics",
+        "ets2",
+        "export-3d",
+        "toll-border",
+        "release"
+      ]
+    }
+  ]
 }
