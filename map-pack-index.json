@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-23T16:10:53.700Z",
+  "updatedAt": "2026-07-24T02:27:19.539Z",
   "homepage": "https://github.com/fgt8857-jpg/3DMAP",
   "packs": [
     {
@@ -216,6 +216,25 @@
         "ets2",
         "export-3d",
         "toll-border",
+        "release"
+      ]
+    },
+    {
+      "packId": "ets2-driving-v0-road-strips",
+      "track": "3d",
+      "gameId": "ETS2",
+      "title": "ETS2 driving-map road strips and coarse buildings",
+      "latestContentVersion": "20260723.2",
+      "manifestUrl": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260723.2/manifest.json",
+      "zipUrl": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260723.2/ets2-driving-v0-road-strips-20260723.2.zip",
+      "sha256Url": "https://github.com/fgt8857-jpg/3DMAP/releases/download/v20260723.2/ets2-driving-v0-road-strips-20260723.2.zip.sha256",
+      "tags": [
+        "3d",
+        "driving-map",
+        "road-strips",
+        "coarse-buildings",
+        "ets2",
+        "export-3d",
         "release"
       ]
     }
